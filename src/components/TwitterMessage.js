@@ -11,14 +11,6 @@ class TwitterMessage extends React.Component {
   }
 
   handleChange = (event) => {
-    // event.preventDefault()
-    // console.log(event.target.value)
-    // // this.setState(previousState => {
-    // this.setState((previousState, event) => ({
-    //      message: event.target.value,
-    //     remainingChars: previousState.remainingChars - event.target.value.length
-    //   })
-    //   )
     this.setState({
       message: event.target.value
     })
